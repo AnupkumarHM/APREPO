@@ -17,7 +17,8 @@
   "addons": [
   ],
   "env": {
-    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs","OPENAI_API_KEY="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"
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs",
+    "OPENAI_API_KEY":"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"
 ,"PORT=8000"
   }
 }
