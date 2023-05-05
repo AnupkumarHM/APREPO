@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "aws-sdk": "^2.1359.0",
+    "bolt-iot-wrapper": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "johnny-five": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "openai": "^3.2.1",
+    "socket.io": "^4.1.2",
+    "socketio": "^1.0.0",
+    "tslib": "^2.4.0"
+  },
+  "author": "Anupkumar HM",
+  "scripts": {
+    "start": "nodemon index.mjs"
+  }
+}
