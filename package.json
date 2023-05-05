@@ -15,6 +15,6 @@
   },
   "author": "Anupkumar HM",
   "scripts": {
-    "start": "nodemon index.mjs"
+    "start": "node index.js"
   }
 }
