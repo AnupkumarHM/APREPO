@@ -11,7 +11,7 @@ const openai = new OpenAIApi(configuration);
 const app = require("express")();
 // const http = require('http').Server(app);
 const port = process.env.PORT || 3000;
-const server = app.listen(port);
+const server = app.listen(port,'0.0.0.0');
 const io = require("socket.io")(server);
 app.get("/anup", (req, res) => {
   console.log("ii");
