@@ -9,12 +9,12 @@
     "johnny-five": "^2.1.0",
     "nodemon": "^2.0.15",
     "openai": "^3.2.1",
-    
+    "socket.io": "^4.1.2",
     "socketio": "^1.0.0",
     "tslib": "^2.4.0"
   },
   "author": "Anupkumar HM",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.mjs"
   }
 }
