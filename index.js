@@ -53,7 +53,7 @@ io.on("connection", (socket) => {
 
     console.log(msg.n1 + "1");
 
-    io.emit("chat messag", { nm, n });
+    io.emit("chat messag", { n, nm });
   });
 });
 
